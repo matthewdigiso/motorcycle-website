@@ -1,0 +1,37 @@
+
+:root {
+  --primary-color: #c1121f;
+  --dark-color: #0b090a;
+  --light-color: #f8f9fa;
+  --text-color: #212529;
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
+  background-color: var(--light-color);
+}
+
+h1, h2, h5 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.navbar {
+  background-color: var(--dark-color) !important;
+}
+
+
+
+.hero {
+  background-color: #ff5e00;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
