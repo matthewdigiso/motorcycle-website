@@ -1,8 +1,8 @@
 
 :root {
   --primary-color: #c1121f;
-  --dark-color: rgb(2, 39, 18);
-  --light-color: #630a0a;
+  --dark-color: rgb(26, 25, 25);
+  --light-color: #000e3b;
   --text-color: #ffffff;
 }
 
@@ -14,7 +14,7 @@ body {
 }
 
 h1, h2, h5 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'OCR A Std', monospace;
 }
 
 
@@ -26,7 +26,7 @@ h1, h2, h5 {
 
 
 .hero {
-  background-image: url('../img/santamotorcycle2.jpg'); 
+  background-image: url('../img/background.webp'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -35,7 +35,7 @@ h1, h2, h5 {
   justify-content: center;
   align-items: center;
   color: white;
-  text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
 }
 
 placeholder-box {
