@@ -3,109 +3,156 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>RedLine Motorcycles</title>
-
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
-
+  <title>RedLine | Ride the Legend</title>
 
 
   
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+ 
+  
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+
+
+  
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark shadow-sm">
     <div class="container">
-      <a class="navbar-brand fw-bold text-uppercase" href="#">RedLine Motorcycles</a>
+      
+        
+      <a class="navbar-brand d-flex align-items-center" href="#home">
+        
+        
+        <img src="img/Screenshot 2025-10-31 075143.png" alt="MotoBrand Logo" class="logo me-2">
+        <span class="fw-bold text-uppercase">RedLine</span>
+      </a>
+
+      
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
+
+      
+      
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Bikes</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Gear</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        <ul class="navbar-nav ms-auto text-uppercase fw-semibold">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#bikes">Bikes</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          
         </ul>
       </div>
     </div>
   </nav>
 
   
-
-<div style="text-align: center; margin-top: 15px;">
-  <img src="img/Screenshot 2025-10-31 075143.png" alt="Redline Motorcycles Logo" style="width: 180px; height: auto;">
-</div>
-
-
   
-  <header class="hero d-flex align-items-center text-center text-white">
+  <header id="home" class="hero d-flex align-items-center text-center text-white">
     <div class="container">
-      <h1 class="display-4 fw-bold">REDLINE MOTORCYCLES</h1>
-      <p class="lead">Top Tier Motorcycles, Built for Speed and Soul.</p>
-      <a href="#bikes" class="btn btn-light btn-lg mt-3 fw-bold">SHOP NOW</a>
+      <h1 class="display-4 fw-bold">RedLine Motorcycles</h1>
+      <p class="lead">Explore the road ahead with precision engineering and design.</p>
+      <a href="#bikes" class="btn btn-danger btn-lg mt-3">View Bikes</a>
     </div>
   </header>
 
-
+  
   
   <section id="bikes" class="py-5">
     <div class="container text-center">
-      <h2 class="fw-bold mb-5 text-uppercase">Our Featured Motorcycles</h2>
-      <div class="row g-4 justify-content-center">
-
-     
-        
+      <h2 class="fw-bold mb-4">Featured Motorcycles</h2>
+      <div class="row g-4">
         <div class="col-md-4">
-          <div class="card bg-dark text-white border-0 shadow-lg h-100">
-            <img src="img/hd1.png" class="card-img-top" alt="Classic Bike">
+          <div class="card h-100 shadow-sm">
+            <img src="img/suzuki1.png" class="card-img-top" alt="Motorcycle 1">
             <div class="card-body">
-              <h5 class="card-title fw-bold">The Classic</h5>
-              <p class="card-text">Experience the thrill of the open road with this timeless motorcycle, where vintage craftsmanship meets raw performance. Built to last — and built to ride.</p>
-              <h5 class="mt-3 text-danger fw-bold">$12,500</h5>
-              <a href="#" class="btn btn-outline-danger mt-3 w-100 fw-bold">Buy Now</a>
+              <h5 class="card-title fw-bold">Street Hawk</h5>
+              <p class="card-text">A perfect balance of agility and speed for urban riders.</p>
             </div>
           </div>
         </div>
-
-       
-        
         <div class="col-md-4">
-          <div class="card bg-dark text-white border-0 shadow-lg h-100">
-            <img src="img/yamaha1.png" class="card-img-top" alt="Sport Bike">
+          <div class="card h-100 shadow-sm">
+            <img src="img/suzuki2.png" class="card-img-top" alt="Motorcycle 2">
             <div class="card-body">
-              <h5 class="card-title fw-bold">Sport Performance</h5>
-              <p class="card-text">Precision-built for speed and agility. With its lightweight frame and advanced engineering, this sport bike dominates both track and street.</p>
-              <h5 class="mt-3 text-danger fw-bold">$22,500</h5>
-              <a href="#" class="btn btn-outline-danger mt-3 w-100 fw-bold">Buy Now</a>
+              <h5 class="card-title fw-bold">Cruiser 900</h5>
+              <p class="card-text">Long-distance comfort meets high performance power.</p>
             </div>
           </div>
         </div>
-
-      
-        
         <div class="col-md-4">
-          <div class="card bg-dark text-white border-0 shadow-lg h-100">
-            <img src="img/suzuki1.png" class="card-img-top" alt="Sport Performance 2">
+          <div class="card h-100 shadow-sm">
+            <img src="img/yamaha1.png" class="card-img-top" alt="Motorcycle 3">
             <div class="card-body">
-              <h5 class="card-title fw-bold">HyperSport Elite</h5>
-              <p class="card-text">Unleash unmatched power with the HyperSport Elite. Designed for riders who demand the best — extreme speed, control, and style.</p>
-              <h5 class="mt-3 text-danger fw-bold">$30,000</h5>
-              <a href="#" class="btn btn-outline-danger mt-3 w-100 fw-bold">Buy Now</a>
+              <h5 class="card-title fw-bold">Adventure Pro</h5>
+              <p class="card-text">Designed for thrill seekers who love the open trail.</p>
             </div>
           </div>
         </div>
-
       </div>
     </div>
   </section>
 
+ 
+  
+  <section id="about" class="py-5 bg-light text-center">
+    <div class="container">
+      <h2 class="fw-bold mb-4">About Us</h2>
+      <p class="lead mx-auto" style="max-width: 700px;">
+        At Redline, we believe every ride should be unforgettable. Our motorcycles are crafted
+        with precision, combining innovation, design, and performance to elevate your experience
+        on the open road.
+      </p>
+    </div>
+  </section>
+
+  
+  
+  <section id="gallery" class="py-5">
+    <div class="container text-center">
+      <h2 class="fw-bold mb-4">Gallery</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <img src="img/yamaha2.png" class="img-fluid rounded shadow-sm" alt="Gallery Image 1">
+        </div>
+        <div class="col-md-4">
+          <img src="img/yamaha3.png" class="img-fluid rounded shadow-sm" alt="Gallery Image 2">
+        </div>
+        <div class="col-md-4">
+          <img src="img/hd2.webp" class="img-fluid rounded shadow-sm" alt="Gallery Image 3">
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+  
+  <section id="contact" class="py-5 bg-light text-center">
+    <div class="container">
+      <h2 class="fw-bold mb-4">Contact Us</h2>
+      <p>Have questions or want to schedule a test ride? Get in touch below!</p>
+      <form class="mx-auto" style="max-width: 500px;">
+        <input type="text" class="form-control mb-3" placeholder="Your Name" required>
+        <input type="email" class="form-control mb-3" placeholder="Your Email" required>
+        <textarea class="form-control mb-3" rows="4" placeholder="Your Message" required></textarea>
+        <button class="btn btn-danger btn-lg w-100">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  
   
   <footer class="text-center py-4 bg-dark text-white">
-    <p class="mb-0">© 2025 RedLine Motorcycles — Built for the Ride</p>
+    <p class="mb-0">&copy; 2025 MotoBrand | Built for Riders, by Riders.</p>
   </footer>
 
+
+  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
